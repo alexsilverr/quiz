@@ -1,0 +1,32 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 470px;
+  text-decoration: none;
+}
+.box_card {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+  justify-content: center;
+  gap: 20px;
+  text-decoration: none;
+}
+.box_h2 {
+  display: flex;
+  justify-content: start;
+  margin-left: 40px;
+}
+@media screen and (max-width: 500px) {
+  .box {
+    width: 370px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .box_h2 {
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+  }
+}
